@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <!--<link rel="stylesheet" type="text/css" href="style.css">-->
+        <link rel="stylesheet" type="text/css" href="custom.css">
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <ul class="m-2 nav">
+                <li class="nav-item ms-auto">
+                    <a class="nav-link text-dark" href="https://www.google.com/intl/th/gmail/about/">Gmail</a>
+                </li>
+                <li>
+                    <a class="nav-link text-dark" href="imgsearch.html">Images</a>
+                </li>
+                <li>
+                    <a class="nav-link text-dark" href="adsearch.html">advanced search</a>
+                </li>
+            </ul>
+        </div>
+        <div class="m-5 text-center">
+            <img src="google.png" alt="google image">
+            <div>
+                <form action="https://www.google.com/search" class="input-icon">
+
+                    <div class="relative">
+                        <input class="form-icon m-3 rounded-pill border ty"
+                            autocomplete="off" type="text" name="q">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                            <!--<i class="bi bi-search trailing"></i>-->
+                        </span>
+                    </div>
+
+                    <input class="btn border-custom" type="submit" value="Google Search">
+                    <a class="btn border-custom" href="https://www.google.com/doodles">I'm Feeling Lucky</a>
+                </form>
+            </div>
+        </div>
+    </body>
+    <footer> This is CS50W. <i>by WORADA C.</i> </footer>
+</html>

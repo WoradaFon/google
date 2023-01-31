@@ -1,0 +1,17 @@
+body {
+    background: #FFFFFF;
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab {
+    text-align: right;
+    padding: 10;
+    margin: 10;
+    width: 100;
+}

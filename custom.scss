@@ -1,0 +1,101 @@
+// Then import Bootstrap
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+$font-google: Arial;
+
+.container-fluid {
+    font-family: $font-google;
+    font-size: 13px;
+}
+
+div {
+    ul {
+        li {
+            margin: 4px;
+            padding: none;
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+div img {
+    padding-top: 55px;
+    padding-bottom: 15px;
+}
+
+.btn {
+    font-family: $font-google;
+    font-size: 14px;
+    padding:7px 17px 7px 17px;
+    margin: 5px;
+    background-color: $gray-100;
+    color: $gray-700;
+}
+
+.border-custom:hover {
+    border: 1px solid $gray-300;
+}
+
+.btn-primary {
+    background-color: $primary;
+    color: white;
+
+}
+
+footer {
+    text-align: center;
+    font-family: $font-google;
+    font-size: 11px;
+}
+
+.label-img {
+    color: $primary;
+    text-align: bottom;
+}
+
+.ty:hover {
+    box-shadow: 3px 3px 5px 3px $gray-300;
+}
+
+.form-icon {
+    padding-left: 2.5rem;
+    width: 550px;
+    height: 45px;
+}
+
+.form-icon:focus {
+    box-shadow: 3px 3px 5px 3px $gray-300;
+    border: $gray-100;
+    outline: none !important;
+}
+
+.form-ad:focus {
+    box-shadow: 1px 1px 2px 1px $gray-300;
+}
+
+.relative {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.relative span {
+    color: $gray-600;
+    position: absolute;
+    padding-right: 500px;
+    padding-top: 23px;
+    border: none;
+}
+
+.findad {
+    font-size: 30px;
+}
+
+.ad {
+    display: flex;
+}
